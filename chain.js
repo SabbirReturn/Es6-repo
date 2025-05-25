@@ -36,6 +36,20 @@ let user2 = {
     }
 }
 
+// console.log(products.data[1].price);
+
+let user1 = {
+    id:5001,
+    name: 'Sabbir Hasan',
+    address: {
+        street :{
+            house : '73/f',
+            road: '12/B',
+            flat: '4B'
+        },
+        city: 'Dhaka'
+    }
+}
 console.log(user1.address.street.flat);
 console.log(user2.address.street?.flat);
 
